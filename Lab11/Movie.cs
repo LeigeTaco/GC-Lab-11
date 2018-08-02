@@ -74,25 +74,25 @@ namespace Lab11
 
         }
 
-        public void StringToCategory(Dictionary<string, byte> refernce, string cat)
-        {
+        //public void StringToCategory(Dictionary<string, byte> refernce, string cat)
+        //{
 
-            try
-            {
+        //    try
+        //    {
 
-                Console.WriteLine($"Genre found: {cat} ID {reference[cat]}");
-                Category = reference[cat.ToLower()];
+        //        Console.WriteLine($"Genre found: {cat} ID {reference[cat]}");
+        //        Category = reference[cat.ToLower()];
 
-            }
-            catch
-            {
+        //    }
+        //    catch
+        //    {
 
-                Console.WriteLine("We could not find that genre, defaulting to \"Adam Sandler\"");
-                Category = 0;
+        //        Console.WriteLine("We could not find that genre, defaulting to \"Adam Sandler\"");
+        //        Category = 0;
 
-            }
+        //    }
 
-        }
+        //}
 
         public Movie()
         {
